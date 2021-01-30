@@ -53,8 +53,4 @@ campsiteRouter.route('/:campsiteId')
     res.end(`Deleting campsite: ${req.params.campsiteId}`);
 });
 
-
-
-
-
 module.exports = campsiteRouter;
